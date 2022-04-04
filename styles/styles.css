@@ -243,6 +243,11 @@ header
     font-weight: 400;
     margin-bottom: 16px;
 }
+.main-blogpost-container .main-blogpost-info .primary-button
+{
+    padding: 0 16px;
+    font-size: var(--md);
+}
 .secondary-button
 {
     display: flex;
@@ -329,4 +334,23 @@ header
 {
     position: absolute;
     bottom: 2px;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: linear-gradient(207.8deg, var(--background-primary-color) 16%, var(--primary-color) 100%);
+    color: var(--background-tertiary-color);
+}
+footer p
+{
+    font-size: var(--sm);
+    font-weight: 300;
+    text-align: center;
 }
