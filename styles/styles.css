@@ -354,3 +354,132 @@ footer p
     font-weight: 300;
     text-align: center;
 }
+
+/* Estilos para la pagina de blog.html */
+.blog-main
+{
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.blog-main .poster-container
+{
+    width: 100%;
+    padding: 8px 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.blog-main .poster-container figure
+{
+    width: 100%;
+    height: 100%;
+}
+.blog-main .poster-container figure img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-main .blog-container
+{
+    width: 100%;
+    padding: 8px 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.blog-main .blog-container .section-title
+{
+    font-size: var(--lg);
+    font-weight: 600;
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--primary-color);
+}
+.blog-main .blog-container .blog-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 28px 0;
+}
+.blog-main .blog-content h2
+{
+    font-family: 'Fraunces', serif;
+    font-size: var(--h1-size);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.blog-main .blog-content p
+{
+    font-size: var(--lg);
+    font-weight: 300;
+}
+.contact-section
+{
+    width: 100%;
+    padding: 28px 16px;
+    background-color: var(--background-secondary-color);
+}
+.contact-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.contact-container .contact-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+.contact-container .contact-info div:first-child a
+{
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+}
+.contact-container .contact-info div:first-child a img
+{
+    width: 100%;
+}
+.contact-container .contact-info div:last-child
+{
+    width: calc(100%-80px);
+}
+.contact-container .contact-info div:last-child a
+{
+    display: inline-block;
+    width: 100%;
+    font-size: var(--lg);
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 2px dotted var(--background-primary-color);
+}
+.contact-container .contact-info div:last-child a:hover
+{
+    text-decoration: underline;
+}
+.contact-container .contact-info div:last-child a > span
+{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('/assets/icons/icons8-external-link.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.contact-container .contact-info div:last-child p
+{
+    font-size: var(--md);
+    font-weight: 400;
+}
